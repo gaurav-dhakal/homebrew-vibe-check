@@ -1,28 +1,28 @@
 class VibeCheck < Formula
   desc "Dev machine monitor for the terminal: processes, ports, containers and build junk"
   homepage "https://github.com/gaurav-dhakal/vibe-check"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/gaurav-dhakal/vibe-check/releases/download/v#{version}/vibe-check_#{version}_darwin_arm64.tar.gz"
-      sha256 "e2f92718319edbb3e0665ba83f6e6543eae2bd52f251f7891ec117cf9343c3a4"
+      sha256 "cd5b5ea6e66eff94188418fe46e117a2813a9de4276c0962f8a1545fdaad31ab"
     end
     on_intel do
       url "https://github.com/gaurav-dhakal/vibe-check/releases/download/v#{version}/vibe-check_#{version}_darwin_amd64.tar.gz"
-      sha256 "17c7c57d327063ffd895af689e33360c22f99bb8317948dcb248b7ef9328161d"
+      sha256 "71eaed6340af1201da4738bae9a598640b08b0af7d45e42f53ab36cffdca7033"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gaurav-dhakal/vibe-check/releases/download/v#{version}/vibe-check_#{version}_linux_arm64.tar.gz"
-      sha256 "06a0a6e4d374e4d72550f5126b8300f225e8f8c091ecc17e3746f34ac5879446"
+      sha256 "ce76da2d439c0e6eb7741e83f093f9a9456039fe0304d524c97ec9995ef54eab"
     end
     on_intel do
       url "https://github.com/gaurav-dhakal/vibe-check/releases/download/v#{version}/vibe-check_#{version}_linux_amd64.tar.gz"
-      sha256 "c34f423dfda0c2d2205134377460e6e00e3606c9f96231eedba964de46d51007"
+      sha256 "4fad6815b4c8311e55d4b8866c85f97431263457e252da5dc241705b722a9497"
     end
   end
 
