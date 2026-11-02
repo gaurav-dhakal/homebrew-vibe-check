@@ -18,11 +18,11 @@ class VibeCheck < Formula
   on_linux do
     on_arm do
       url "https://github.com/gaurav-dhakal/vibe-check/releases/download/v#{version}/vibe-check_#{version}_linux_arm64.tar.gz"
-      sha256 "ce76da2d439c0e6eb7741e83f093f9a9456039fe0304d524c97ec9995ef54eab"
+      sha256 "99419568b412b959308a14a8196af9281010d79144c4d68f78e6ce893777bc9a"
     end
     on_intel do
       url "https://github.com/gaurav-dhakal/vibe-check/releases/download/v#{version}/vibe-check_#{version}_linux_amd64.tar.gz"
-      sha256 "4fad6815b4c8311e55d4b8866c85f97431263457e252da5dc241705b722a9497"
+      sha256 "efb2167804c120952335f7c113d48a466fe2c088116d26ed180cd513618c8a32"
     end
   end
 
